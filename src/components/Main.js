@@ -1,5 +1,5 @@
 import React from "react";
-import home from "../../public/home-page.jpg"
+import home from "../assets/home-page.jpg"
 
 export default function Main () {
   return(
