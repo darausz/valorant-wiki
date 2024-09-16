@@ -1,0 +1,408 @@
+body {
+  /* background-color: rgb(47, 255, 186); */
+  background-color: RGB(242, 99, 107);
+  font-size: 1.2rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(83, 33, 43);
+  
+}
+
+h1 {
+  transform: translateY(1rem);
+  text-align: center;
+  color: antiquewhite;
+  font-size: 5rem;
+}
+
+hr {
+  margin: 0;
+  border-width: 1px;
+  border-color: rgb(218, 89, 115);
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 69, 86);
+}
+
+.navImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6rem;
+  height: 6rem;
+}
+
+.navItem {
+  font-size: 2rem;
+  text-decoration: none;
+  margin: 1.2rem;
+  padding: .8rem;
+  border: .1rem solid rgb(253, 69, 86);
+  border-radius: 1rem;
+  color: white;
+  transition: .5s;
+}
+
+.navItem:hover {
+  border: .1rem solid rgb(189, 57, 68);
+  background-color: rgb(189, 57, 68);
+  border-radius: 1rem;
+  color: pink;
+}
+
+#homePage {
+  position: relative;
+}
+
+#homePageImg {
+  width: 100%;
+  height: 100vh;
+}
+
+#homePageHeader {
+  /* color: rgb(189, 57, 68); */
+  color:antiquewhite;
+  width: 100%;
+  text-align: center;
+  top:0;
+  position: absolute;
+  text-shadow: 0px 0px 2px darkred;
+
+}
+
+.agentsOuterContainer {
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.agentsInnerContainer {
+  flex: 0 1 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.agentsInfoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.agents {
+  position: relative;
+}
+
+.agentName {
+  position: absolute;
+  top: 0rem;
+  left: 15rem;
+  font-size: 3rem;
+}
+
+.agentRole {
+  position: absolute;
+  font-size: 1.5rem;
+  top: 5rem;
+  left: 15.1rem;
+}
+
+.agentDescription {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+  transform: translateX(30%);
+  width: 60%;
+}
+
+.agentImg {
+  padding-left: 10rem;
+  height: 45rem;
+  width: 50rem;
+}
+
+.abilityContainer {
+  align-self: flex-start;
+  align-self: center;
+}
+
+.abilityIcon {
+  height: 5rem;
+  width: 5rem;
+  padding: 1.5rem 2rem 2.5rem;
+}
+
+.abilityDescription {
+  width: 80%;
+  padding-right: 10rem;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.abilityName {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.blankImg {
+  box-sizing: border-box;
+  min-width: 9rem;
+  min-height: 9rem;
+  border: 0;
+}
+
+.imgContainer {
+  scroll-behavior: smooth;
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  align-items: stretch;
+  align-content: stretch;
+  overflow: hidden;
+}
+
+.mapContainer {
+  flex-shrink: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.mapImageWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.mapDescription {
+  margin: 0;
+  position: absolute;
+  top: 4rem;
+  left: 6rem;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  text-shadow: 0px 0px 2px rgb(235, 178, 178);
+  pointer-events: none;
+  z-index: 1;
+  font-size: 8rem;
+  font-weight: 100;
+}
+
+.mapImg {
+  width: 100vw;
+  height: auto;
+  vertical-align: top;
+}
+
+.leftScroll,
+.rightScroll {
+  position: absolute;
+  font-family: monospace;
+  font-size: 10rem;
+  z-index: 2;
+  top: 50vh;
+  color: white
+}
+
+.leftScroll {
+  left: 0;
+
+}
+
+.rightScroll {
+  right: 0;
+}
+
+.ranksContainer {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 80vh;
+  margin-bottom: 13rem;
+}
+
+.divisionsContainer {
+  height: 25%;
+  min-width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.tierName {
+  height: 2rem;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.tierContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.singleContainer {
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.singleContainer p {
+  height: 1rem;
+  width: 100%;
+}
+
+#tierImg0 {
+  flex: 3 0 100%;
+  margin-bottom: -1rem;
+}
+
+#tierImg1 {
+  flex: 2 0 30%;
+  align-self: flex-start;
+  padding-left: 15rem;
+}
+
+#tierImg2 {
+  flex: 2 0 30%;
+  align-self: flex-start;
+  padding-right: 15rem;
+}
+
+.tierImg {
+  transform: translateX(21%);
+  width: 7rem;
+  height: 7rem;
+}
+
+#tierImg3, #tierImg4, #tierImg5 {
+  transform: translateX(-2.5%);
+}
+
+#tierImg6, #tierImg7, #tierImg8 {
+  transform: translateX(-1%);
+}
+
+.weaponsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: -15rem;
+}
+
+#categoryContainer1,
+#categoryContainer2,
+#categoryContainer4,
+#categoryContainer5 {
+  width: 45vw;
+}
+
+#categoryContainer6 {
+  height: 50%;
+}
+
+.categoryContainer {
+  padding-top: 2rem;
+  justify-content: space-evenly;
+  display: flex;
+  width: 98vw;
+  height: 20rem;
+}
+
+.categoryName {
+  flex-grow: 5;
+  height: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.weaponContainer {
+  height: 15rem;
+  position: relative;
+  text-align: center;
+}
+
+
+.weaponImgPistol {
+  width: 60%;
+}
+
+#weaponImgPistol0,
+#weaponImgPistol2 {
+  width: 45%;
+}
+
+#weaponImgPistol4 {
+  width: 60%;
+}
+
+.weaponImgSMG {
+  width: 100%;
+  height: 40%;
+}
+
+.weaponImgShotgun {
+  width: 80%;
+}
+
+.weaponImgLarge {
+  width: 90%;
+}
+
+.weaponImgKnife {
+  width: 50%;
+}
+
+.weaponInfo {
+  width: 100%;
+  height: 1rem;
+  position: absolute;
+  bottom: 5rem;
+  text-align: center;
+  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.weaponInfo > div{
+  text-align: center;
+  flex: 0 0 50%;
+  padding-bottom: 2rem;
+}
+
+.weaponName {
+  font-weight: bold;
+}
+#knife {
+  font-weight: bold;
+  transform: translateX(25%);
+}
