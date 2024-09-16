@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/valorant-wiki/static/css/main.e174cc5a.css",
+    "main.js": "/valorant-wiki/static/js/main.e45b5ded.js",
+    "index.html": "/valorant-wiki/index.html",
+    "main.e174cc5a.css.map": "/valorant-wiki/static/css/main.e174cc5a.css.map",
+    "main.e45b5ded.js.map": "/valorant-wiki/static/js/main.e45b5ded.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e174cc5a.css",
+    "static/js/main.e45b5ded.js"
+  ]
+}
