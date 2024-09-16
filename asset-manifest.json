@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/valorant-wiki/static/css/main.e174cc5a.css",
-    "main.js": "/valorant-wiki/static/js/main.97728068.js",
+    "main.js": "/valorant-wiki/static/js/main.f0ee3536.js",
     "static/media/home-page.jpg": "/valorant-wiki/static/media/home-page.6f2098ddb14794decee4.jpg",
     "static/media/valorant-logo.png": "/valorant-wiki/static/media/valorant-logo.327a72013a907e077bd0.png",
     "index.html": "/valorant-wiki/index.html",
     "main.e174cc5a.css.map": "/valorant-wiki/static/css/main.e174cc5a.css.map",
-    "main.97728068.js.map": "/valorant-wiki/static/js/main.97728068.js.map"
+    "main.f0ee3536.js.map": "/valorant-wiki/static/js/main.f0ee3536.js.map"
   },
   "entrypoints": [
     "static/css/main.e174cc5a.css",
-    "static/js/main.97728068.js"
+    "static/js/main.f0ee3536.js"
   ]
 }
